@@ -54,7 +54,7 @@ header{
 }
 #scorciatoie{
     font-size: calc(1.0vw + 0.8vh);
-    color:blue
+    color: hsla(281, 100%, 69%, 0.5)
 }
 
 #Contenuto {
