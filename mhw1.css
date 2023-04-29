@@ -109,6 +109,9 @@ footer{
     left: 0;
     padding-top: 10%;
 }
+.nav a{
+    color:firebrick;
+}
 .nav:hover{
     border: solid 5px violet;
     border-radius: 50px;
