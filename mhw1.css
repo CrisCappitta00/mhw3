@@ -55,9 +55,11 @@ header{
     color:black;
     font-style:oblique;
 }
-#scorciatoie{
+#scorciatoie:hover{
     font-size: calc(1.0vw + 0.8vh);
-    color: hsla(281, 100%, 69%, 0.5)
+    color: hsla(281, 100%, 69%, 0.5);
+    border-radius: 100px;
+    border:dashed steelblue 2px;
 }
 
 #Contenuto {
