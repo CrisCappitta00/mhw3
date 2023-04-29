@@ -23,15 +23,16 @@ header{
 #menu{
     display: flex;
     width: auto;
-    height: 10%;
+    height: 20%;
 }
 .BarraNavigazione{
     color: white;
     font-style: oblique;
     font-size: calc(1.5vw + 1.5vh);
-    padding: 14px 16px;
+    padding: 2vw;
     text-decoration: none;
     cursor: pointer; 
+    height: fit-content;
 }
 .BarraNavigazione:hover{
     background-color: rgba(255, 255, 255, 0.5);
@@ -49,6 +50,7 @@ header{
     font-size: calc(1.1vw + 1.1vh);
     text-align: center;
     width: 100%;
+    height: 80%;
 }
 #introduzione{
     font-size: calc(1.0vw + 0.6vh);
