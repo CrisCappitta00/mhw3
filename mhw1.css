@@ -60,8 +60,13 @@ header{
     color: hsla(281, 100%, 69%, 0.5);
     border-radius: 100px;
     border:inset steelblue 2px;
+    transition-duration: 2000ms;
+    padding: 2px;
+    top: 2px;
 }
-
+#scorciatoie a:not(:hover){
+transition-duration: 800ms;
+}
 #Contenuto {
     font-family: Garamond;
     font-style: normal;
