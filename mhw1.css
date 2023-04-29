@@ -113,7 +113,7 @@ footer{
     color:firebrick;
 }
 .nav:hover{
-    border: solid 5px violet;
+    border: solid 5px rgb(168, 58, 168);
     border-radius: 50px;
     padding: 5px;
     margin: 3px;
