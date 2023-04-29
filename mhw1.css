@@ -46,7 +46,7 @@ header{
     font-size: calc(1.1vw + 1.1vh);
     text-align: center;
     width: 100%;
-    fill: url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+    fill: url(wave.png);
     fill-opacity: unset;
 }
 #introduzione{
