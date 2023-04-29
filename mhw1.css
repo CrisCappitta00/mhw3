@@ -103,7 +103,7 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     font-size: calc(1.5vw + 0.5vh);
     font-style: italic;
-    text-decoration: none;
+    text-decoration: line-through;
     color:firebrick;
     top: 50%;
     left: 0;
