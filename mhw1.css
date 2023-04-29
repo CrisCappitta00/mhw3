@@ -111,6 +111,7 @@ footer{
 }
 .nav a{
     color:firebrick;
+    font-size: medium;
 }
 .nav:hover{
     border: solid 5px rgb(168, 58, 168);
