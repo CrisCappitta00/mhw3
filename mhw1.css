@@ -38,8 +38,11 @@ header{
     color: black;
     border-radius: 100px;
     border: solid steelblue 2px;
+    transition-duration: 1000ms;
 }
-
+.BarraNavigazione:not(:hover){
+    transition-duration: 500ms;
+}
 #intestazione{
     font-family: 'Great Vibes';
     font-style: italic;
