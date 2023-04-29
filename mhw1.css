@@ -119,6 +119,9 @@ footer{
     padding: 5px;
     margin: 3px;
 }
+.nav :not(:hover){
+    transition-duration: 500ms;
+}
 #date{
     display: flex;
     justify-content: flex-end;
