@@ -61,8 +61,8 @@ header{
     border-radius: 100px;
     border:inset steelblue 2px;
     transition-duration: 2000ms;
-    padding: 2px;
-    top: 2px;
+    margin: 2px;
+    
 }
 #scorciatoie a:not(:hover){
 transition-duration: 800ms;
