@@ -71,10 +71,12 @@ transition-duration: 800ms;
 }
 #Api{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding: 6px;
+    justify-content: space-around;
     background-color: blanchedalmond;
-    background-size: contain;
+    background-size: cover;
     color:darkmagenta;
 }
 #Contenuto {
