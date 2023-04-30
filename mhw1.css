@@ -79,6 +79,8 @@ transition-duration: 800ms;
     background-color: blanchedalmond;
     background-size: cover;
     color:darkmagenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 #Contenuto {
     font-family: Garamond;
