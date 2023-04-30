@@ -69,6 +69,14 @@ header{
 #scorciatoie a:not(:hover){
 transition-duration: 800ms;
 }
+#Api{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blanchedalmond;
+    background-size: contain;
+    color:darkmagenta;
+}
 #Contenuto {
     font-family: Garamond;
     font-style: normal;
