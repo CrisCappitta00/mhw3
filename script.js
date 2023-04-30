@@ -1,1 +1,3 @@
-fetch("https://date.nager.at/api/v2/publicholidays/2023/JP")
+/*Creazione Api senza autenticazione */
+const form = document.querySelector('form');
+form.addEventListener('submit', ricerca);
