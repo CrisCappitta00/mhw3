@@ -1,7 +1,7 @@
 /*Creazione Api senza autenticazione */
 /*Creo una variabile che memorizza il primo elemento restituito da queryselector */
 const section = document.querySelector('section');
-fetch('/api/v3/NextPublicHolidays/JP').then(onResponse).then(onJson);
+fetch('https://api.sunrisesunset.io/json?lat=36.474328641705696&lng=138.72064733614394&timezone=GMT+9&date=today').then(onResponse).then(onJson);
 
 function onResponse(response){
     if(response.ok){
@@ -10,6 +10,5 @@ function onResponse(response){
 }
 
 function onJson(json){
-    console.log('Json received');
-    const calendar = document.querySelector('#Date_Eventi');
+    console.log('Json received'); 
 }
