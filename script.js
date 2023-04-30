@@ -1,6 +1,6 @@
 /*Creazione Api senza autenticazione */
 /*Creo una variabile che memorizza il primo elemento restituito da queryselector */
-const form = document.querySelector('form');
+const section = document.querySelector('section');
 fetch('/api/v3/NextPublicHolidays/JP').then(onResponse).then(onJson);
 
 function onResponse(response){
@@ -10,5 +10,6 @@ function onResponse(response){
 }
 
 function onJson(json){
-    
+    console.log('Json received');
+    const calendar = document.querySelector('#Date_Eventi');
 }
