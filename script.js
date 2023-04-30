@@ -7,5 +7,8 @@ function onResponse(response){
     if(response.ok){
      return response.json();
     }
+}
 
+function onJson(){
+     
 }
