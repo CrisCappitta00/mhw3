@@ -73,7 +73,7 @@ transition-duration: 800ms;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 6px;
+    padding: 8px;
     justify-content: flex-start;
     align-items: center;
     background-color: blanchedalmond;
