@@ -74,7 +74,7 @@ transition-duration: 800ms;
     flex-direction: row;
     width: 100%;
     padding: 6px;
-    justify-content: space-around;
+    justify-content: start;
     background-color: blanchedalmond;
     background-size: cover;
     color:darkmagenta;
