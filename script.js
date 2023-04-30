@@ -1,1 +1,1 @@
-fetch()
+fetch("https://date.nager.at/api/v2/publicholidays/2023/JP")
