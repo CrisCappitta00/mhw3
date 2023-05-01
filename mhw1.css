@@ -69,11 +69,11 @@ header{
 #scorciatoie a:not(:hover){
 transition-duration: 800ms;
 }
-#Api{
+#time-section{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 8px;
+    margin: 8px;
     justify-content: flex-start;
     align-items: center;
     background-color: blanchedalmond;
@@ -82,14 +82,7 @@ transition-duration: 800ms;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
-#Date_Eventi{
-    display: flex;
-    width: 50%;
-    height: 50%;
-    margin: 10px;
-    border: 2px solid rgb(187, 0, 255);
-    padding: 5px;
-}
+
 #Contenuto {
     font-family: Garamond;
     font-style: normal;
