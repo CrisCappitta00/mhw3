@@ -42,9 +42,25 @@
         </ul>
     </nav>
     <!--Creazione di un div che conterrà le due Api, una senza autenticazione e una con autenticazione OAuth2-->
-    <div id="time-section">
-        <h1>Alba e Tramonto del Giappone</h1>
-        <h2>Today<br>01 May 2023</h2>
+    <div id="time-section" class="hiddn">
+        <div id="time-zone">
+            <h1>Alba e Tramonto del Giappone</h1>
+            <h2 id="data-attuale">Today<br>01 May 2023</h2>
+            <div>
+                <div id="Alba">
+                    <h3>Alba</h3>
+                    <img src="sunrise.png">
+                    <h1 id="orario-alba">08:00</h1>
+                    <h2 id="secondo-orario-alba">dawn</h2>
+                </div>
+                <div id="Tramonto">
+                    <h3>Tramonto</h3>
+                    <img src="sunset.png">
+                    <h1 id="orario-tramonto">08:00</h1>
+                    <h2 id="secondo-orario-tramonto">dusk</h2>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Creazione del contenuto del sito, il contenuto è caratterizzato al suo interno da immagini e testo
     nel quale vengono trattati differenti argomenti.

@@ -69,7 +69,7 @@ header{
 #scorciatoie a:not(:hover){
 transition-duration: 800ms;
 }
-#time-section{
+#time-zone{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -83,7 +83,24 @@ transition-duration: 800ms;
     font-style: italic;
     text-align: center;
 }
-
+#time-zone div{
+    flex-direction: row;
+    width: 80%;
+    height: fit-content;
+    justify-content: space-between;
+    display: flex;
+}
+#time-zone div div{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+}
+#Alba img, #Tramonto img{
+    width:100%;
+}
 #Contenuto {
     font-family: Garamond;
     font-style: normal;
@@ -186,4 +203,7 @@ footer img{
     padding-bottom: -10%;
     padding-left: 15%;
     margin-left: -10%;
+}
+.hidden{
+    display: none;
 }
